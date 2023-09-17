@@ -1,0 +1,11 @@
+name: SellPlugin
+version: '${version}'
+main: com.github.mattnicee7.sellplugin.SellPlugin
+authors: [ mattnicee7 ]
+website: https://www.github.com/mattnicee7
+commands:
+  sell:
+    aliases: [vender]
+  shiftsell:
+  autosell:
+    aliases: [venderauto]

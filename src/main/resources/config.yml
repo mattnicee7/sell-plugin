@@ -1,0 +1,37 @@
+# Permission ShiftSell -> sellplugin.shiftsell (To work, it also needs the permission sellplugin.sell)
+# Permission AutoSell -> sellplugin.autosell (To work, it also needs the permission sellplugin.sell)
+
+# To get a bonus on sales, just set the permission according to the bonus. Examples:
+# sellplugin.bonus.1 -> 1% bonus on sales
+# sellplugin.bonus.43 -> 43% bonus on sales
+# If you have two bonus permissions, the higher value will always be used.
+
+system-unavailable: '&cThis system is disabled.'
+
+sell-message: '&aYou sold &7{amount}x &aitems for &f{price}'
+bonus-message: '&a&lBONUS! &aYou have &7{percentage}% &abonus, so you earned an additional &7{price} &aon your sales.'
+you-dont-have-item-to-sell: '&cYou do not have any items to sell.'
+
+shift-sell-activated: '&aYou activated shift automatic selling.'
+shift-sell-disabled: '&cYou deactivated shift automatic selling.'
+
+auto-sell-activated: '&aYou activated automatic selling.'
+auto-sell-disabled: '&cYou deactivated automatic selling.'
+
+no-permission: '&cYou do not have permission for this.'
+
+shift-sell: true
+auto-sell: true
+
+auto-sell-delay: 100
+
+items:
+  stone: # This name doesn't matter.
+    id: 1 # Id
+    data: 0 # Data
+    price: 10 # Item price
+  red-clay:
+    id: 159
+    data: 14
+    price: 20
+
