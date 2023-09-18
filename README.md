@@ -30,7 +30,7 @@ To build the Sell Plugin from source, follow these steps:
 3. Navigate to the project directory.
 4. Run the following command to build the plugin using Gradle and the ShadowJar plugin:
 ```gradle
-gradle shadowJar
+./gradlew shadowJar
 ```
 5. Upon successful build, the compiled `.jar` file with all its dependencies can be found in the `build/libs` directory.
 
